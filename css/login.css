@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 100vh;
     justify-content: center;
-    background-image: linear-gradient(to right, #333, blueviolet);
+    background-image: linear-gradient(to right, #000, rgb(183, 13, 13));
 }
 
 .login__header {
