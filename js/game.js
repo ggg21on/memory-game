@@ -79,7 +79,7 @@ const revealCard = ({ target }) => {
 
     checkCards();
 
-  }  
+  }
 }
 
 const createCard = (character) => {
@@ -100,7 +100,7 @@ const createCard = (character) => {
 }
 
 const loadGame = () => {
-  const duplicateCharacters = [ ...characters, ...characters ];
+  const duplicateCharacters = [...characters, ...characters];
 
   const shuffledArray = duplicateCharacters.sort(() => Math.random() - 0.5);
 
