@@ -13,6 +13,8 @@ const characters = [
   'darth-maul',
   'rey',
   'stormtrooper',
+  'kylo-ren',
+  'phasma',
 ];
 
 const createElement = (tag, className) => {
