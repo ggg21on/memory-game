@@ -72,3 +72,23 @@ header {
     filter: saturate(0);
     opacity: 0.5;
 }
+
+/* adjust grid layout for smaller screens */
+@media only screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .card {
+        aspect-ratio: 1/1;
+    }
+}
+
+/* adjust card size for smaller screens */
+@media only screen and (max-width: 400px) {
+    .card {
+        aspect-ratio: 1/1;
+        width: 80%;
+    }
+}
