@@ -7,8 +7,16 @@
 }
 
 body {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+
+body {
     background-image: url("../images/fundo.gif");
     background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
 }
 
 .login__header {
